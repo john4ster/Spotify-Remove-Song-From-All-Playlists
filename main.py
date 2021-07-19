@@ -2,8 +2,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import sys
 
-CLIENT_ID = "a663cbeb91af41109c2099889739ac3e"
-CLIENT_SECRET = "cb3219f342a149c5a123c10217122612"
+CLIENT_ID = "insert_client_id"
+CLIENT_SECRET = "insert_client_secret"
 REDIRECT_URI = "https://removefromplaylists"
 
 #Spotify api scopes to read and write to playlists

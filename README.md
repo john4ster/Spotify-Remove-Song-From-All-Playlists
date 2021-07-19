@@ -2,7 +2,9 @@
 Spotify has no option to remove a song from all your playlists. You have to manually go through each playlist and remove the song. This can be an annoying process, and can even lead to you forgetting to remove the song from some playlists. So I made this simple python script that you can use to remove a song from all your Spotify playlists at once.
 
 # How to use
-Simply run the command `python main.py "[Insert Song Name Here]" "[Insert Artist Name Here]"`. Make sure to put the song name in quotes. It is best to open Spotify and find the song first so you can enter its name exactly as it appears in Spotify.
+First, you need to replace the "Client ID" and Client Secret" variables with your own, which can be obtained at Spotify for Developers: https://developer.spotify.com/
+
+Then you can simply run the command `python main.py "[Insert Song Name Here]" "[Insert Artist Name Here]"`. Make sure to put the song name in quotes. It is best to open Spotify and find the song first so you can enter its name exactly as it appears in Spotify.
 
 # Things to look out for
 Spaces: For songs with a space in them, you must put the song name in quotes, if you don't, the script will take each word as a seperate argument and will not be able to find the song.
